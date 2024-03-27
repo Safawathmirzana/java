@@ -1,0 +1,18 @@
+class shape{
+void display(){
+System.out.println("This Is A Rectangle");
+}
+}
+class rectangle extends shape{
+void area(){
+System.out.println("This Is A Area");
+}
+}
+class Single{
+public static void main(String args[]){
+rectangle sing=new rectangle();
+sing.display();
+sing.area();
+}
+}
+~
